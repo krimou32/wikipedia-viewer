@@ -1,0 +1,17 @@
+.container {
+  margin: 10vh 10vh 10vh 10vh;
+}
+
+#search-box {
+  height: 20vh;
+}
+
+.logo, .search {
+  float: left;
+  margin-right: 5vh;
+}
+
+.wiki-logo {
+  width: 20vh;
+  height: 20vh;
+}

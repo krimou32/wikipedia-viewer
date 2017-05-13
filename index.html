@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="./css/main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <title>Wikipedia Search API</title>
+</head>
+<body>
+  <div id="main" class="container">
+    <div id="search-box" class="well">
+      <div class="logo">
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+          <img class="wiki-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png" alt="Wikipeadia Logo" />
+        </a>
+      </div>
+      <div id="search-engine">
+        <form action="#" name="search-wiki">
+          <input type="text" id="searchValue" placeholder="Search anything here..." />
+          <button class="btn btn-primary" id="searchBtn">Search</button>
+        </form>
+      </div>
+      <div>
+        <p>
+          Click the logo to get a random Wikipedia article!
+        </p>
+      </div>
+    </div>
+    <div id="search-result">
+      
+    </div>
+  </div>
+
+  <!-- SEARCH SCRIPT -->
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
